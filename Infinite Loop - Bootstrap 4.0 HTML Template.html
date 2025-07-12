@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<!-- saved from url=(0175)https://yolo247dk.shop/?gad_source=1&gad_campaignid=22757350715&gbraid=0AAAABARN8peeByFobsF0KH_gginHkiv_P&gclid=EAIaIQobChMIz7Dh9dOxjgMVXKhmAh09nR_iEAAYASAAEgJNIfD_BwE#contact -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Infinite Loop - Bootstrap 4.0 HTML Template</title>
+    <link rel="icon" href="https://yolo247dk.shop/img/gallery-img-04.jpg" type="image/jpg">
+    <link rel="stylesheet" href="./Infinite Loop - Bootstrap 4.0 HTML Template_files/all.min.css">
+    <link rel="stylesheet" href="./Infinite Loop - Bootstrap 4.0 HTML Template_files/slick.css">
+    <link rel="stylesheet" href="./Infinite Loop - Bootstrap 4.0 HTML Template_files/slick-theme.css">
+    <link rel="stylesheet" href="./Infinite Loop - Bootstrap 4.0 HTML Template_files/magnific-popup.css">
+    <link rel="stylesheet" href="./Infinite Loop - Bootstrap 4.0 HTML Template_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./Infinite Loop - Bootstrap 4.0 HTML Template_files/tooplate-infinite-loop.css">
+
+    <style>
+      body {
+          margin: 0;
+          font-family: Arial, sans-serif;
+          background-color: #f4f4f4;
+      }
+      #cookie-notice {
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          background-color: white;
+          color: black;
+          padding: 10px;
+          text-align: center;
+          display: none;
+          z-index: 999;
+      }
+    
+      @media (max-width: 768px) {
+          #cookie-notice {
+              position: fixed;
+              left: 50%;
+              transform: translate(-50%, -50%);
+          }
+      }
+      #cookie-notice p {
+          margin: 0 0 10px;
+      }
+    
+      #cookie-notice button {
+          margin: 0 10px;
+          padding: 10px 20px;
+          font-size: 16px;
+          cursor: pointer;
+          border: none;
+          color: white;
+          border-radius: 4px;
+      }
+    
+      #accept-btn {
+          background-color: #4CAF50;
+      }
+    
+      #reject-btn {
+          background-color: #e74c3c;
+      }
+    </style>
+    <style>
+    #simple-chat-button--container {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 999999999;
+    }
+    #simple-chat-button--button {
+        display: block;
+        position: relative;
+        text-decoration: none;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        box-shadow: 0 6px 8px 2px rgba(0, 0, 0, .15);
+        background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjU2IiB3aWR0aD0iMjU2IiB2aWV3Qm94PSItMjMgLTIxIDY4MiA2ODIuNjY3IiBmaWxsPSIjZmZmIiB4bWxuczp2PSJodHRwczovL3ZlY3RhLmlvL25hbm8iPjxwYXRoIGQ9Ik01NDQuMzg3IDkzLjAwOEM0ODQuNTEyIDMzLjA2MyA0MDQuODgzLjAzNSAzMjAuMDUxIDAgMTQ1LjI0NiAwIDIuOTggMTQyLjI2MiAyLjkxIDMxNy4xMTNjLS4wMjMgNTUuODk1IDE0LjU3OCAxMTAuNDU3IDQyLjMzMiAxNTguNTUxTC4yNSA2NDBsMTY4LjEyMS00NC4xMDJjNDYuMzI0IDI1LjI3IDk4LjQ3NyAzOC41ODYgMTUxLjU1MSAzOC42MDJoLjEzM2MxNzQuNzg1IDAgMzE3LjA2Ni0xNDIuMjczIDMxNy4xMzMtMzE3LjEzMy4wMzUtODQuNzQyLTMyLjkyMi0xNjQuNDE4LTkyLjgwMS0yMjQuMzU5ek0zMjAuMDUxIDU4MC45NDFoLS4xMDljLTQ3LjI5Ny0uMDItOTMuNjg0LTEyLjczLTEzNC4xNi0zNi43NDJsLTkuNjIxLTUuNzE1LTk5Ljc2NiAyNi4xNzIgMjYuNjI5LTk3LjI3LTYuMjctOS45NzNjLTI2LjM4Ny00MS45NjktNDAuMzItOTAuNDc3LTQwLjI5Ny0xNDAuMjgxLjA1NS0xNDUuMzMyIDExOC4zMDUtMjYzLjU3IDI2My42OTktMjYzLjU3IDcwLjQwNi4wMjMgMTM2LjU5IDI3LjQ3NyAxODYuMzU1IDc3LjMwMXM3Ny4xNTYgMTE2LjA1MSA3Ny4xMzMgMTg2LjQ4NGMtLjA2MiAxNDUuMzQ0LTExOC4zMDUgMjYzLjU5NC0yNjMuNTk0IDI2My41OTR6bTE0NC41ODYtMTk3LjQxOGMtNy45MjItMy45NjktNDYuODgzLTIzLjEzMy01NC4xNDgtMjUuNzgxLTcuMjU4LTIuNjQ1LTEyLjU0Ny0zLjk2MS0xNy44MjQgMy45NjktNS4yODUgNy45My0yMC40NjkgMjUuNzgxLTI1LjA5NCAzMS4wNjZzLTkuMjQyIDUuOTUzLTE3LjE2OCAxLjk4NC0zMy40NTctMTIuMzM2LTYzLjcyNy0zOS4zMzJjLTIzLjU1NS0yMS4wMTItMzkuNDU3LTQ2Ljk2MS00NC4wODItNTQuODkxLTQuNjE3LTcuOTM3LS4wMzktMTEuODEyIDMuNDc3LTE2LjE3MiA4LjU3OC0xMC42NTIgMTcuMTY4LTIxLjgyIDE5LjgwOS0yNy4xMDVzMS4zMi05LjkxOC0uNjY0LTEzLjg4M2MtMS45NzctMy45NjUtMTcuODI0LTQyLjk2OS0yNC40MjYtNTguODQtNi40MzctMTUuNDQ1LTEyLjk2NS0xMy4zNTktMTcuODMyLTEzLjYwMi00LjYxNy0uMjMtOS45MDItLjI3Ny0xNS4xODctLjI3N3MtMTMuODY3IDEuOTgtMjEuMTMzIDkuOTE4LTI3LjczIDI3LjEwMi0yNy43MyA2Ni4xMDUgMjguMzk1IDc2LjY4NCAzMi4zNTUgODEuOTczIDU1Ljg3OSA4NS4zMjggMTM1LjM2NyAxMTkuNjQ4YzE4LjkwNiA4LjE3MiAzMy42NjQgMTMuMDQzIDQ1LjE3NiAxNi42OTUgMTguOTg0IDYuMDMxIDM2LjI1NCA1LjE4IDQ5LjkxIDMuMTQxIDE1LjIyNy0yLjI3NyA0Ni44NzktMTkuMTcyIDUzLjQ4OC0zNy42OCA2LjYwMi0xOC41MTIgNi42MDItMzQuMzc1IDQuNjE3LTM3LjY4NC0xLjk3Ny0zLjMwNS03LjI2Mi01LjI4NS0xNS4xODQtOS4yNTR6bTAgMCIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9zdmc+") center/44px 44px no-repeat #25D366;
+    }
+    #simple-chat-button--text {
+        display: block;
+        position: absolute;
+        width: max-content;
+        background-color: #fff;
+        bottom: 15px;
+        right: 70px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        color: #000;
+        font-size: 13px;
+        font-weight: 700;
+        letter-spacing: -0.03em;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        word-break: keep-all;
+        line-height: 1em;
+        text-overflow: ellipsis;
+        vertical-align: middle;
+        box-shadow: 0 6px 8px 2px rgba(0, 0, 0, .15);
+    }
+    #simple-chat-button--button:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        border-radius: 50%;
+        -webkit-animation: scb-shockwave-animation 2s 5.3s ease-out infinite;
+        animation: scb-shockwave-animation 2s 5.3s ease-out infinite;
+        z-index: -1;
+    }
+    #simple-chat-button--button:hover {
+        -webkit-transform: scale(1.06);
+        transform: scale(1.06);
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+    @media only screen and (max-width: 1024px) {
+        #simple-chat-button--container {
+            bottom: 20px;
+        }
+    }
+    
+    @media only screen and (max-width: 768px) {
+        #simple-chat-button--container {
+            bottom: 20px;
+        }
+    }
+    @-webkit-keyframes scb-shockwave-animation {
+        0% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            box-shadow: 0 0 2px rgba(0, 100, 0, .5), inset 0 0 1px rgba(0, 100, 0, .5);
+        }
+        95% {
+            box-shadow: 0 0 50px transparent, inset 0 0 30px transparent;
+        }
+        100% {
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+    }
+    @keyframes scb-shockwave-animation {
+        0% {
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            box-shadow: 0 0 2px rgba(0, 100, 0, .5), inset 0 0 1px rgba(0, 100, 0, .5);
+        }
+        95% {
+            box-shadow: 0 0 50px transparent, inset 0 0 30px transparent;
+        }
+        100% {
+            -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+        }
+    }
+    </style>
+    <style>
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+    
+    .detail-box {
+    position: relative;
+    padding: 20px;
+    /* background-color: #f5f5f5; */
+    }
+    
+    .heading_container h2 {
+    margin-bottom: 10px;
+    }
+    
+    p {
+    margin-bottom: 20px;
+    }
+    
+    .phone-icon {
+    position: fixed;
+    bottom: 5px;
+    left: 20px;
+    font-size: 60px;
+    color: #23ce62;
+    z-index: 999;
+    }
+    </style>
+  </head>
+  <body>    
+    <!-- Hero section -->
+    <section id="infinite" class="text-white tm-font-big tm-parallax" style="background-position: center 2276.4px;">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-md tm-navbar scroll" id="tmNav">              
+        <div class="container">   
+          <div class="tm-next">
+              <a class="navbar-brand">Infinite Loop</a>
+          </div>             
+            
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars navbar-toggler-icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link tm-nav-link" href="https://yolo247dk.shop/?gad_source=1&amp;gad_campaignid=22757350715&amp;gbraid=0AAAABARN8peeByFobsF0KH_gginHkiv_P&amp;gclid=EAIaIQobChMIz7Dh9dOxjgMVXKhmAh09nR_iEAAYASAAEgJNIfD_BwE#infinite">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link tm-nav-link" href="https://yolo247dk.shop/?gad_source=1&amp;gad_campaignid=22757350715&amp;gbraid=0AAAABARN8peeByFobsF0KH_gginHkiv_P&amp;gclid=EAIaIQobChMIz7Dh9dOxjgMVXKhmAh09nR_iEAAYASAAEgJNIfD_BwE#whatwedo">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link tm-nav-link" href="https://yolo247dk.shop/?gad_source=1&amp;gad_campaignid=22757350715&amp;gbraid=0AAAABARN8peeByFobsF0KH_gginHkiv_P&amp;gclid=EAIaIQobChMIz7Dh9dOxjgMVXKhmAh09nR_iEAAYASAAEgJNIfD_BwE#testimonials">Client</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link tm-nav-link" href="https://yolo247dk.shop/?gad_source=1&amp;gad_campaignid=22757350715&amp;gbraid=0AAAABARN8peeByFobsF0KH_gginHkiv_P&amp;gclid=EAIaIQobChMIz7Dh9dOxjgMVXKhmAh09nR_iEAAYASAAEgJNIfD_BwE#gallery">Project</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link tm-nav-link current" href="https://yolo247dk.shop/?gad_source=1&amp;gad_campaignid=22757350715&amp;gbraid=0AAAABARN8peeByFobsF0KH_gginHkiv_P&amp;gclid=EAIaIQobChMIz7Dh9dOxjgMVXKhmAh09nR_iEAAYASAAEgJNIfD_BwE#contact">Contact</a>
+              </li>                    
+            </ul>
+          </div>        
+        </div>
+      </nav>
+      
+      <div class="text-center tm-hero-text-container">
+  <div class="tm-hero-text-container-inner">
+    <h2 class="tm-hero-title">Responsive Templates</h2>
+    <p class="tm-hero-subtitle">
+      Modern HTML &amp; Bootstrap Design
+      <br>Free Resources for Web Development
+    </p>
+  </div>        
+</div>
+    </section>
+
+    <section id="whatwedo" class="tm-section-pad-top">
+  <div class="container">
+    <div class="row tm-content-box">
+      <div class="col-lg-12 col-xl-12">
+        <div class="tm-intro-text-container">
+          <h2 class="tm-text-primary mb-4 tm-section-title">Our HTML Templates</h2>
+          <p class="mb-4 tm-intro-text">
+            We create responsive Bootstrap templates that help you build modern websites quickly. Our templates are designed with clean code and mobile-first principles. You can customize them for personal projects, educational sites, or portfolio showcases. All templates are well-documented with clear comments to help beginners understand HTML structure.
+          </p>
+        </div>
+      </div>
+    </div>
+            
+    <div class="row tm-content-box">
+      <div class="col-lg-1">
+        <i class="far fa-3x fa-chart-bar text-center tm-icon"></i>
+      </div>
+      <div class="col-lg-5">
+        <div class="tm-intro-text-container">
+          <h2 class="tm-text-primary mb-4">Template Features</h2>
+          <p class="mb-4 tm-intro-text">
+            Our Bootstrap templates include responsive navigation, optimized grid layouts, and cross-browser compatibility. Each template comes with properly structured HTML5 elements and CSS3 animations that work on all device sizes.
+          </p>
+        </div>
+      </div>
+                
+      <div class="col-lg-1">
+        <i class="far fa-3x fa-comment-alt text-center tm-icon"></i>
+      </div>
+      <div class="col-lg-5">
+        <div class="tm-intro-text-container">
+          <h2 class="tm-text-primary mb-4">Code Support</h2>
+          <p class="mb-4 tm-intro-text">
+            Get help with HTML customization and Bootstrap implementation. We provide guidance on modifying template structures and troubleshooting layout issues.
+          </p>
+        </div>
+      </div>
+    </div>
+            
+    <div class="row tm-content-box">
+      <div class="col-lg-1">
+        <i class="fas fa-3x fa-fingerprint text-center tm-icon"></i>
+      </div>
+      <div class="col-lg-5">
+        <div class="tm-intro-text-container">
+          <h2 class="tm-text-primary mb-4">Clean Markup</h2>
+          <p class="mb-4 tm-intro-text">
+            All templates feature semantic HTML with proper indentation and comments. The code follows web standards for easy customization and maintenance.
+          </p>
+         
+        </div>
+      </div>
+                
+      <div class="col-lg-1">
+        <i class="fas fa-3x fa-users text-center tm-icon"></i>
+      </div>
+      <div class="col-lg-5">
+        <div class="tm-intro-text-container">
+          <h2 class="tm-text-primary mb-4">Bootstrap Components</h2>
+          <p class="mb-4 tm-intro-text">
+            Our templates utilize Bootstrap's grid system, navigation components, and utility classes. Learn how to implement carousels, modals, and responsive forms through our examples.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    
+<section id="testimonials" class="tm-section-pad-top tm-parallax-2" style="background-attachment: fixed; background-position: center -519px;">      
+  <div class="container tm-testimonials-content">
+    <div class="row">
+      <div class="col-lg-12 tm-content-box">
+        <h2 class="text-white text-center mb-4 tm-section-title">User Experiences</h2>
+        <p class="mx-auto tm-section-desc text-center">
+          Feedback from developers and learners who have used our HTML templates and Bootstrap resources.
+        </p>
+        <div class="mx-auto tm-gallery-container tm-gallery-container-2">
+          <div class="tm-testimonials-carousel slick-initialized slick-slider slick-dotted">
+            <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 1750px; transform: translate3d(0px, 0px, 0px);"><figure class="tm-testimonial-item slick-slide slick-current slick-active" data-slick-index="0" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00" style="width: 280px;">
+              <img src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/testimonial-img-01.jpg" alt="Image" class="img-fluid mx-auto">
+              <blockquote>These templates helped me understand Bootstrap grid system quickly. The clean code structure made customization straightforward.</blockquote>
+              <figcaption>Web Development Student</figcaption>
+            </figure><figure class="tm-testimonial-item slick-slide slick-active" data-slick-index="1" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide01" aria-describedby="slick-slide-control01" style="width: 280px;">
+              <img src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/testimonial-img-02.jpg" alt="Image" class="img-fluid mx-auto">
+              <blockquote>I used the portfolio template for my college project. The responsive design worked perfectly on all devices without extra coding.</blockquote>
+              <figcaption>Computer Science Student</figcaption>
+            </figure><figure class="tm-testimonial-item slick-slide slick-active" data-slick-index="2" aria-hidden="false" tabindex="0" role="tabpanel" id="slick-slide02" aria-describedby="slick-slide-control02" style="width: 280px;">
+              <img src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/testimonial-img-03.jpg" alt="Image" class="img-fluid mx-auto">
+              <blockquote>As a beginner, the well-commented HTML helped me learn proper structuring. I could see how components work together.</blockquote>
+              <figcaption>Coding Bootcamp Participant</figcaption>
+            </figure><figure class="tm-testimonial-item slick-slide" data-slick-index="3" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide03" aria-describedby="slick-slide-control03" style="width: 280px;">
+              <img src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/testimonial-img-04.jpg" alt="Image" class="img-fluid mx-auto">
+              <blockquote>The templates saved me hours of coding. I used the e-learning template as a base for my online course project.</blockquote>
+              <figcaption>Freelance Developer</figcaption>
+            </figure><figure class="tm-testimonial-item slick-slide" data-slick-index="4" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide04" aria-describedby="slick-slide-control04" style="width: 280px;">
+              <img src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/testimonial-img-02.jpg" alt="Image" class="img-fluid mx-auto">
+              <blockquote>Perfect for teaching HTML concepts. My students could experiment with the code without breaking layouts.</blockquote>
+              <figcaption>Programming Instructor</figcaption>
+            </figure></div></div>
+
+            
+
+            
+
+            
+
+            
+          <ul class="slick-dots" style="display: block;" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control00" aria-controls="slick-slide00" aria-label="1 of 2" tabindex="0" aria-selected="true">1</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control01" aria-controls="slick-slide01" aria-label="2 of 2" tabindex="-1">2</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control02" aria-controls="slick-slide02" aria-label="3 of 2" tabindex="-1">3</button></li></ul></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tm-bg-overlay"></div>
+</section>
+    
+<section id="gallery" class="tm-section-pad-top">
+  <div class="container tm-container-gallery">
+    <div class="row">
+      <div class="text-center col-12">
+        <h2 class="tm-text-primary tm-section-title mb-4">Template Gallery</h2>
+        <p class="mx-auto tm-section-desc">
+          Preview our responsive Bootstrap templates with clean HTML structure. Each template is mobile-friendly and easily customizable.
+        </p>
+      </div>            
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="mx-auto tm-gallery-container">
+          <div class="grid tm-gallery slick-initialized slick-slider slick-dotted"><button class="slick-prev slick-arrow slick-disabled" aria-label="Previous" type="button" aria-disabled="true" style="display: block;">Previous</button>
+            
+            
+            
+            
+            
+            
+            
+            
+          <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 2016px; transform: translate3d(0px, 0px, 0px);"><a class="slick-slide slick-current slick-active" tabindex="0" role="tabpanel" id="slick-slide10" aria-describedby="slick-slide-control10" style="width: 252px;" data-slick-index="0" aria-hidden="false">
+              <figure class="effect-honey tm-gallery-item">
+                <img src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/gallery-tn-01.jpg" alt="Image 1" class="img-fluid">
+                <figcaption>
+                  <h2><i>Portfolio Template <span>Bootstrap 5</span></i></h2>
+                </figcaption>
+              </figure>
+            </a><a class="slick-slide slick-active" tabindex="0" role="tabpanel" id="slick-slide11" style="width: 252px;" data-slick-index="1" aria-hidden="false">
+              <figure class="effect-honey tm-gallery-item">
+                <img src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/gallery-tn-02.jpg" alt="Image 2" class="img-fluid">
+                <figcaption>
+                  <h2><i>Blog Layout <span>Responsive</span></i></h2>
+                </figcaption>
+              </figure>
+            </a><a class="slick-slide slick-active" tabindex="0" role="tabpanel" id="slick-slide12" aria-describedby="slick-slide-control11" style="width: 252px;" data-slick-index="2" aria-hidden="false">
+              <figure class="effect-honey tm-gallery-item">
+                <img src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/gallery-tn-03.jpg" alt="Image 3" class="img-fluid">
+                <figcaption>
+                  <h2><i><span>Business</span> Template</i></h2>
+                </figcaption>
+              </figure>
+            </a><a class="slick-slide slick-active" tabindex="0" role="tabpanel" id="slick-slide13" style="width: 252px;" data-slick-index="3" aria-hidden="false">
+              <figure class="effect-honey tm-gallery-item">
+                <img src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/gallery-tn-04.jpg" alt="Image 4" class="img-fluid">
+                <figcaption>
+                  <h2><i>E-Commerce <span>Design</span></i></h2>
+                </figcaption>
+              </figure>
+            </a><a class="slick-slide slick-active" tabindex="0" role="tabpanel" id="slick-slide14" aria-describedby="slick-slide-control12" style="width: 252px;" data-slick-index="4" aria-hidden="false">
+              <figure class="effect-honey tm-gallery-item">
+                <img src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/gallery-tn-05.jpg" alt="Image 5" class="img-fluid">
+                <figcaption>
+                  <h2><i><span>Landing Page</span> Example</i></h2>
+                </figcaption>
+              </figure>
+            </a><a class="slick-slide" tabindex="-1" role="tabpanel" id="slick-slide15" style="width: 252px;" data-slick-index="5" aria-hidden="true">
+              <figure class="effect-honey tm-gallery-item">
+                <img src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/gallery-tn-06.jpg" alt="Image 6" class="img-fluid">
+                <figcaption>
+                  <h2><i>Dashboard <span>Interface</span></i></h2>
+                </figcaption>
+              </figure>
+            </a><a class="slick-slide" tabindex="-1" role="tabpanel" id="slick-slide16" aria-describedby="slick-slide-control13" style="width: 252px;" data-slick-index="6" aria-hidden="true">
+              <figure class="effect-honey tm-gallery-item">
+                <img src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/gallery-tn-01.jpg" alt="Image 7" class="img-fluid">
+                <figcaption>
+                  <h2><i>Educational <span>Template</span></i></h2>
+                </figcaption>
+              </figure>
+            </a><a class="slick-slide" tabindex="-1" role="tabpanel" id="slick-slide17" style="width: 252px;" data-slick-index="7" aria-hidden="true">
+              <figure class="effect-honey tm-gallery-item">
+                <img src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/gallery-tn-02.jpg" alt="Image 8" class="img-fluid">
+                <figcaption>
+                  <h2><i>Restaurant <span>Design</span></i></h2>
+                </figcaption>
+              </figure>
+            </a></div></div><button class="slick-next slick-arrow" aria-label="Next" type="button" style="display: block;" aria-disabled="false">Next</button><ul class="slick-dots" style="display: block;" role="tablist"><li class="slick-active" role="presentation"><button type="button" role="tab" id="slick-slide-control10" aria-controls="slick-slide10" aria-label="1 of 2" tabindex="0" aria-selected="true">1</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control11" aria-controls="slick-slide12" aria-label="2 of 2" tabindex="-1">2</button></li><li role="presentation"><button type="button" role="tab" id="slick-slide-control12" aria-controls="slick-slide14" aria-label="3 of 2" tabindex="-1">3</button></li></ul></div>
+        </div>                
+      </div>        
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="tm-section-pad-top tm-parallax-2" style="background-attachment: fixed; background-position: center -171px;">
+  <div class="container tm-container-contact">
+    <div class="row">
+      <div class="text-center col-12">
+        <h2 class="tm-section-title mb-4">Template Support</h2>
+        <p class="mb-5">
+          Have questions about customizing our Bootstrap templates? Need help with HTML implementation? Contact us for assistance with template customization and code understanding.
+        </p><br>
+      </div>
+            
+      <div class="col-sm-12 col-md-6">
+        <form action="https://yolo247dk.shop/contact.php" method="post">
+          <input id="name" name="name" type="text" placeholder="Your Name" class="tm-input" required="">
+          <input id="number" name="number" type="number" placeholder="Your Number" class="tm-input" required="">
+          <input id="email" name="email" type="email" placeholder="Your Email" class="tm-input" required="">
+          <textarea id="message" name="message" rows="8" placeholder="Message" class="tm-input" required=""></textarea>
+          <button type="submit" class="btn tm-btn-submit">Submit</button>
+        </form>
+      </div>
+            
+      <div class="col-sm-12 col-md-6">
+        <div class="contact-item">
+          <a rel="nofollow" class="item-link">
+            <i class="far fa-2x fa-envelope mr-4"></i>
+            <span class="mb-0">info@infiniteloop.com</span>
+          </a>              
+        </div>
+                
+        <div class="contact-item">
+          <a rel="nofollow" class="item-link">
+            <i class="fas fa-2x fa-map-marker-alt mr-4"></i>
+            <span class="mb-0">Location: A-101,Zone Park,Sv Road,Andheri(West),Mumbai.</span>
+          </a>              
+        </div>
+                
+        <div class="contact-item">
+          <a rel="nofollow" class="item-link">
+            <i class="fas fa-2x fa-phone-square mr-4"></i>
+            <span class="mb-0">+919987337962</span>
+          </a>              
+        </div>
+                
+        <div class="contact-item">&nbsp;</div>
+      </div>
+    </div>
+  </div>
+</section>
+<div id="cookie-notice">
+    <p>This site uses cookies to improve your user experience. You may choose not to use them, but this may limit some functionality of the site. You can read more about cookies in our cookie notice.</p>
+    <button id="accept-btn" onclick="handleCookieAction(true)">Accept</button>
+    <button id="reject-btn" onclick="handleCookieAction(false)">Reject</button>
+  </div>
+
+  <div class="bg-info text-light text-center border-top wow fadeIn">
+    <div class="copyright">
+        <div class="container">
+            <p>
+            <a href="https://yolo247dk.shop/privacy_policy.html">Privacy Policy</a>&nbsp;|&nbsp;<a href="https://yolo247dk.shop/terms_and_conditions.html">Terms And Conditions</a>
+            <br>
+            ©2024 All Right Reserved By Infinite Loop</p>   
+        </div>
+    </div>
+</div>
+<div id="simple-chat-button--container" bis_skin_checked="1">
+    <a id="simple-chat-button--button" href="https://api.whatsapp.com/send?phone=+917039170789&amp;text=Hello+I+am+Interestd" target="_blank" rel="nofollow" aria-label="WhatsApp Chat Button"></a>
+    <span id="simple-chat-button--text">Get Account - Chat Now  ?</span>
+</div> 
+<a href="tel:+917039170789"><div class="phone-icon">☎</div></a>
+    
+    <script src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/jquery-1.9.1.min.js"></script>     
+    <script src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/slick.min.js"></script>
+    <script src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/jquery.magnific-popup.min.js"></script>
+    <script src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/easing.min.js"></script>
+    <script src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/jquery.singlePageNav.min.js"></script>     
+    <script src="./Infinite Loop - Bootstrap 4.0 HTML Template_files/bootstrap.min.js"></script> 
+    <script>
+
+      function getOffSet(){
+        var _offset = 450;
+        var windowHeight = window.innerHeight;
+
+        if(windowHeight > 500) {
+          _offset = 400;
+        } 
+        if(windowHeight > 680) {
+          _offset = 300
+        }
+        if(windowHeight > 830) {
+          _offset = 210;
+        }
+
+        return _offset;
+      }
+
+      function setParallaxPosition($doc, multiplier, $object){
+        var offset = getOffSet();
+        var from_top = $doc.scrollTop(),
+          bg_css = 'center ' +(multiplier * from_top - offset) + 'px';
+        $object.css({"background-position" : bg_css });
+      }
+
+      // Parallax function
+      // Adapted based on https://codepen.io/roborich/pen/wpAsm        
+      var background_image_parallax = function($object, multiplier, forceSet){
+        multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+        multiplier = 1 - multiplier;
+        var $doc = $(document);
+        // $object.css({"background-attatchment" : "fixed"});
+
+        if(forceSet) {
+          setParallaxPosition($doc, multiplier, $object);
+        } else {
+          $(window).scroll(function(){          
+            setParallaxPosition($doc, multiplier, $object);
+          });
+        }
+      };
+
+      var background_image_parallax_2 = function($object, multiplier){
+        multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+        multiplier = 1 - multiplier;
+        var $doc = $(document);
+        $object.css({"background-attachment" : "fixed"});
+        
+        $(window).scroll(function(){
+          if($(window).width() > 768) {
+            var firstTop = $object.offset().top,
+                pos = $(window).scrollTop(),
+                yPos = Math.round((multiplier * (firstTop - pos)) - 186);              
+
+            var bg_css = 'center ' + yPos + 'px';
+
+            $object.css({"background-position" : bg_css });
+          } else {
+            $object.css({"background-position" : "center" });
+          }
+        });
+      };
+      
+      $(function(){
+        // Hero Section - Background Parallax
+        background_image_parallax($(".tm-parallax"), 0.30, false);
+        background_image_parallax_2($("#contact"), 0.80);   
+        background_image_parallax_2($("#testimonials"), 0.80);   
+        
+        // Handle window resize
+        window.addEventListener('resize', function(){
+          background_image_parallax($(".tm-parallax"), 0.30, true);
+        }, true);
+
+        // Detect window scroll and update navbar
+        $(window).scroll(function(e){          
+          if($(document).scrollTop() > 120) {
+            $('.tm-navbar').addClass("scroll");
+          } else {
+            $('.tm-navbar').removeClass("scroll");
+          }
+        });
+        
+        // Close mobile menu after click 
+        $('#tmNav a').on('click', function(){
+          $('.navbar-collapse').removeClass('show'); 
+        })
+
+        // Scroll to corresponding section with animation
+        $('#tmNav').singlePageNav({
+          'easing': 'easeInOutExpo',
+          'speed': 600
+        });        
+        
+        // Add smooth scrolling to all links
+        // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+        $("a").on('click', function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 600, 'easeInOutExpo', function(){
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+
+        // Pop up
+        $('.tm-gallery').magnificPopup({
+          delegate: 'a',
+          type: 'image',
+          gallery: { enabled: true }
+        });
+
+        $('.tm-testimonials-carousel').slick({
+          dots: true,
+          prevArrow: false,
+          nextArrow: false,
+          infinite: false,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 2
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2
+              }
+            }, 
+            {
+              breakpoint: 480,
+              settings: {
+                  slidesToShow: 1
+              }                 
+            }
+          ]
+        });
+
+        // Gallery
+        $('.tm-gallery').slick({
+          dots: true,
+          infinite: false,
+          slidesToShow: 5,
+          slidesToScroll: 2,
+          responsive: [
+          {
+            breakpoint: 1199,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+        });
+      });
+    </script>
+    <script>
+    // Function to handle cookie actions (Accept or Reject)
+    function handleCookieAction(accept) {
+        document.getElementById("cookie-notice").style.display = "none";
+  
+        if (accept) {
+            // Set a cookie to remember that the user has accepted cookies
+            document.cookie = "cookieNoticeAccepted=true; expires=Fri, 31 Dec 9999 23:59:59 GMT; path=/";
+        } else {
+            // Handle rejection action (you can customize this part)
+            alert("Cookies are rejected. Some features of the site may not work.");
+        }
+    }
+  
+    // Function to check if the cookie notice should be displayed
+    function shouldShowCookieNotice() {
+        return document.cookie.indexOf("cookieNoticeAccepted") === -1;
+    }
+  
+    // Display the cookie notice if necessary
+    if (shouldShowCookieNotice()) {
+        document.getElementById("cookie-notice").style.display = "block";
+    }
+  </script>
+  
+</body></html>
